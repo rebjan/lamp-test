@@ -1,0 +1,13 @@
+- name: apply to common conf to all hosts 
+  hosts: all
+  remote_user: root
+
+  roles: 
+  - common
+
+- name: apply the httpd conf production servsers
+  hosts: production
+  remote_user: root
+
+  roles: 
+  - apache

@@ -1,0 +1,11 @@
+[staging]
+node1
+
+[production]
+node2
+node3
+
+[wordpress]
+node1
+node2
+node3
